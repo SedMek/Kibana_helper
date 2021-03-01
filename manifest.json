@@ -1,0 +1,13 @@
+{
+	"name": "kibadate",
+	"version": "1.0",
+	"description": "to do",
+	"content_scripts": [
+		{
+			"matches": ["https://kibana.dev.kayrros.org/*"],
+			"js": ["content.js"]
+		}
+	],
+	"permissions": ["activeTab"],
+	"manifest_version": 2
+}
