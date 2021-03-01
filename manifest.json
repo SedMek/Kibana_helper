@@ -1,7 +1,7 @@
 {
-	"name": "kibadate",
-	"version": "1.0",
-	"description": "to do",
+	"name": "kibana_helper",
+	"version": "0.1",
+	"description": "Kibana toolbox",
 	"content_scripts": [
 		{
 			"matches": ["https://kibana.dev.kayrros.org/*"],
